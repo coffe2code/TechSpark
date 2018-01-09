@@ -1,0 +1,76 @@
+<% include partials/header %>
+
+
+<div class="container">
+	<div class="row">
+		<h1 style="text-align: center; color:black;font-weight: bold"> DATA LINE-A</h1>
+		<div style="width: 90%; margin : 25px auto;">
+			<form action="#">
+			<div class="form-group col-md-6">
+				<label style="color: grey">PRODUCT CODE</label>
+				<input class="form-control" type="text" name="productCode" placeholder="MX1512308">
+			</div>
+			<div class="form-group col-md-6">
+				<label style="color: grey">BATCH CODE</label>
+				<input class="form-control" type=text" name="batchCode" placeholder="FEB14017">
+			</div>
+			<div class="form-group col-md-6">
+				<label style="color: grey	">BATCH SIZE</label>
+				<input class="form-control" type=text" name="batchSize" placeholder="30kgs">
+			</div>
+			<div class="form-group col-md-6">
+				<label style="color: grey">REMARKS</label>
+				<input class="form-control" type="text" name="remarks" placeholder="Some of the workers are on strike, process may extend by an hour today">
+			</div>
+			<div class="form-group col-md-6">
+				<label style="color: grey">INGREDIENTS SHEET</label>
+				<input type="file" name="ingredientsSheet">
+			</div>
+			<div class="form-group col-md-6">
+				<label style="color: grey">MACHINE LAYOUT</label>
+				<input type="file" name="machineLayout">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label style="color: grey">MACHINE TEST RESULTS</label>
+				<input type="file" name="machineTest">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label style="color: grey">WORKER ATTENDANCE</label>
+				<input type="file" name="workerAttendance">
+			</div>
+			
+			<div class="form-group col-md-6">
+				<label style="color: grey">IN-TIME</label>
+				<input class="form-control" type="time" name="inTime">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label style="color: grey">ESTIMATED OUT-TIME</label>
+				<input class="form-control" type="time" name="outTime">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label style="color: grey">MANAGER ID</label>
+				<input class="form-control" type="text" name="managerId" placeholder="16155055">
+			</div>
+
+			<div class="form-group col-md-6">
+				<label style="color: grey">MANAGER PASSWORD</label>
+				<input class="form-control" type="password" name="managerPassword" placeholder="Enter your private password">
+			</div>
+
+			<div class="form-group">
+				<button class="btn-primary btn btn-lg btn-default btn-block">Submit!</button>
+			</div>
+		</form>
+			<a href="/campgrounds">Go Back</a>
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<% include partials/footer %>

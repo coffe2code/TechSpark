@@ -1,0 +1,38 @@
+#notification{
+	border: 2px solid #bec8d8;
+	width: 30%;
+	height: 450px;
+	margin-left: 50px;
+	margin-top: 60px;
+	background-color: white;
+	border-radius: 5%;
+	display: inline-block;
+}
+
+#notification:hover{
+	border: 3px solid yellow;
+}
+
+#action{
+	
+	border: 2px solid #bec8d8;
+	width: 60%;
+	height: 450px;
+	display: inline-block;
+	border-radius: 5%;
+	margin-left: 40px;
+	margin-top: 60px;
+	position: absolute;
+
+}
+
+#action:hover{
+	border: 3px solid yellow;
+}
+
+#image{
+	width: 500px;
+	height: 400px;
+	margin-left: 40px;
+	margin-top: 20px;
+}

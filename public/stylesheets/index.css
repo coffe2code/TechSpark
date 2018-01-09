@@ -1,0 +1,206 @@
+li:hover{
+	background-color: #d0d7e2;
+}
+
+
+#title{
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+}
+
+#points{
+	margin-left: 200px
+}
+
+#pointA{
+
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+#pointB{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+#pointC{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+#logIn{
+	font-weight: bold;
+	color: black;
+}
+
+#logOut{
+	font-weight: bold;
+	color: black;
+}
+
+#backgroundImage{
+	margin-top: -20px;
+	
+	opacity: 0.4;
+	position: absolute;
+
+}
+
+#card{
+	position: absolute;
+}
+
+#inputDiv1{
+
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 100px;
+	display: inline-block;
+	/*background-color: red;*/
+	border-radius: 15%;
+}
+
+#inputDiv2{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 150px;
+	display: inline-block;
+	/*background-color: green;*/
+	border-radius: 15%;
+
+}
+
+#inputDiv3{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 150px;
+	display: inline-block;
+	/*background-color: blue;*/
+	border-radius: 15%;
+}
+
+#inputDiv4{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 100px;
+	display: inline-block;
+	margin-top: 30px;
+	/*background-color: red;*/
+	border-radius: 15%;
+	
+}
+
+
+#inputDiv5{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 150px;
+	display: inline-block;
+	/*background-color: green;*/
+	border-radius: 15%;
+	
+}
+
+#inputDiv6{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 150px;
+	display: inline-block;
+	/*background-color: blue;*/
+	border-radius: 15%;
+	
+}
+
+#inputPointA{
+	position: absolute;
+	margin-left: 45px;
+	font-size: 20px;
+	
+	font-weight: bold;
+	color: black;
+}
+
+#listInputPointA{
+	position: absolute;
+	margin-top: 60px;
+	font-size: 17px;
+}
+
+#inputPointB{
+	position: absolute;
+	margin-left: 45px;
+	font-size: 20px;
+	
+	font-weight: bold;
+	color: black;
+}
+
+#listInputPointB{
+	position: absolute;
+	margin-top: 60px;
+	font-size: 17px;
+}
+
+#inputPointC{
+	position: absolute;
+	margin-left: 45px;
+	font-size: 20px;
+	
+	font-weight: bold;
+	color: black;
+}
+
+#listInputPointC{
+	position: absolute;
+	margin-top: 60px;
+	font-size: 17px;
+}
+
+#inputDiv7{
+	border: 3px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 510px;
+	margin-top: 80px;
+	display: inline-block;
+	background-color: grey;
+	border-radius: 15%;
+}
+
+#inputWastage{
+	position: absolute;
+	margin-left: 65px;
+	font-size: 20px;
+	
+	font-weight: bold;
+}
+
+
+#rightArrow{
+	position: absolute;
+	width: 500px;
+	margin-left: -170px;
+	margin-top: 50px;
+}
+
+#downArrow{
+	height: 100px;
+	width: 100px;
+	margin-left: 180px;
+	margin-top: 10px;
+	
+
+}
+
